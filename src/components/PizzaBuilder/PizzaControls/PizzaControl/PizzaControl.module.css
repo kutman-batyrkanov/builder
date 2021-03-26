@@ -1,0 +1,7 @@
+.PizzaControl {
+    flex: 0 0 250px;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgb(13, 103, 163);
+    color: white;
+  }

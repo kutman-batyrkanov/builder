@@ -3,6 +3,8 @@ import { useState } from "react";
 import PizzaControls from "./PizzaControls/PizzaControls";
 import PizzaPreview from "./PizzaPreview/PizzaPreview";
 import PizzaControl from "./PizzaControls/PizzaControl/PizzaControl";
+import Modal from "../UI/Modal/Modal";
+
 
 const PizzaBulider = () => {
     const [ingredients, setIngredients] = useState ({
@@ -30,6 +32,7 @@ const PizzaBulider = () => {
         <PizzaControls ingredients={ingredients} addIngredient={addIngredient} removeIngredient={removeIngredient} />
         <PizzaPreview ingredients={ingredients} />
         <PizzaControl />
+        <Modal>Hello</Modal>
     </div> 
     );
 }

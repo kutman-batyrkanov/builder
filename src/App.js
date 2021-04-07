@@ -1,15 +1,13 @@
 import Layout from "./components/Layout/Layout";
-import  "./App.css"
-import PizzaBulider from "./components/PizzaBuilder/PizzaBuilder";
+import PizzaBuilder from "./components/PizzaBuilder/PizzaBuilder";
 
+import "./App.css";
 
-
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Layout>
-        <h1>Pizza builder by  master Kytman Batyrkanov</h1>
-        <PizzaBulider />
+        <PizzaBuilder />
       </Layout>
     </div>
   );
